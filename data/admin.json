@@ -1,0 +1,60 @@
+{
+  "calculators": [],
+  "seo": {},
+  "pageViews": [
+    {
+      "slug": "currency",
+      "locale": "en",
+      "path": "/en/calculators/currency",
+      "viewedAt": "2026-07-12T18:22:39.237Z"
+    },
+    {
+      "slug": "loan",
+      "locale": "en",
+      "path": "/en/calculators/loan",
+      "viewedAt": "2026-07-12T18:23:00.596Z"
+    },
+    {
+      "slug": "loan",
+      "locale": "en",
+      "path": "/en/calculators/loan",
+      "viewedAt": "2026-07-12T18:25:42.725Z"
+    },
+    {
+      "slug": "loan",
+      "locale": "en",
+      "path": "/en",
+      "viewedAt": "2026-07-12T18:26:25.798Z"
+    },
+    {
+      "slug": "installment",
+      "locale": "en",
+      "path": "/en/calculators/installment",
+      "viewedAt": "2026-07-12T18:35:57.665Z"
+    },
+    {
+      "slug": "installment",
+      "locale": "en",
+      "path": "/en/calculators/installment",
+      "viewedAt": "2026-07-12T18:37:01.258Z"
+    },
+    {
+      "slug": "loan",
+      "locale": "en",
+      "path": "/en/calculators/loan",
+      "viewedAt": "2026-07-12T18:37:53.887Z"
+    },
+    {
+      "slug": "loan",
+      "locale": "en",
+      "path": "/en/calculators/loan",
+      "viewedAt": "2026-07-12T18:40:02.680Z"
+    },
+    {
+      "slug": "loan",
+      "locale": "en",
+      "path": "/en/calculators/loan",
+      "viewedAt": "2026-07-13T15:35:11.135Z"
+    }
+  ]
+}

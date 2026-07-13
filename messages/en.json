@@ -1,0 +1,47 @@
+{
+  "brand": "7asbty",
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "about": "About",
+    "premium": "Go Premium"
+  },
+  "hero": {
+    "title": "All 7asbty Calculators In One Place",
+    "subtitle": "Fast, free, and accurate calculators for finance, health, education, and everyday life.",
+    "searchPlaceholder": "Search for a calculator... (e.g. loan, BMI, age)"
+  },
+  "sections": {
+    "categories": "Browse by Category",
+    "popular": "Popular Calculators",
+    "recent": "Recently Added",
+    "faq": "Frequently Asked Questions",
+    "allCalculators": "All Calculators"
+  },
+  "common": {
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "copyResult": "Copy Result",
+    "copied": "Copied!",
+    "share": "Share",
+    "print": "Print / Save PDF",
+    "result": "Result",
+    "relatedCalculators": "Related Calculators",
+    "howToUse": "How to Use This Calculator",
+    "readMore": "Read more"
+  },
+  "footer": {
+    "tagline": "Free online calculators for everyday life.",
+    "categories": "Categories",
+    "company": "Company",
+    "legal": "Legal",
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  },
+  "ads": {
+    "placeholder": "Advertisement"
+  }
+}
