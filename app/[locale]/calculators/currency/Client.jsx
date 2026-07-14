@@ -38,6 +38,13 @@ export default function CurrencyClient({ locale }) {
   }, [rates, amount, from, to]);
 
   const fmt = (n) => new Intl.NumberFormat(isAr ? 'ar-EG' : 'en-US', { maximumFractionDigits: 2 }).format(n);
+  const currencyOptions = rates ? Object.keys(rates) : ['USD', 'EUR', 'GBP', 'EGP', 'SAR', 'AED', 'KWD'];
+  const lastUpdated = rateMeta?.date
+    ? `${isAr ? 'آخر تحديث' : 'Last updated'}: ${rateMeta.date}`
+    : isAr ? 'أسعار مباشرة' : 'Live rates';
+  const statusText = error
+    ? (isAr ? 'تعذر جلب السعر المباشر، يتم استخدام أسعار احتياطية مؤقتة.' : 'Live rates are unavailable, using temporary fallback rates.')
+    : lastUpdated;
   const resultText = `${dict.brand} — ${amount} ${from} = ${fmt(converted)} ${to}`;
   const printDetails = isAr
     ? [
@@ -60,14 +67,6 @@ export default function CurrencyClient({ locale }) {
       `Result: ${fmt(converted)} ${to}`,
       statusText,
     ];
-
-  const currencyOptions = rates ? Object.keys(rates) : ['USD', 'EUR', 'GBP', 'EGP', 'SAR', 'AED', 'KWD'];
-  const lastUpdated = rateMeta?.date
-    ? `${isAr ? 'آخر تحديث' : 'Last updated'}: ${rateMeta.date}`
-    : isAr ? 'أسعار مباشرة' : 'Live rates';
-  const statusText = error
-    ? (isAr ? 'تعذر جلب السعر المباشر، يتم استخدام أسعار احتياطية مؤقتة.' : 'Live rates are unavailable, using temporary fallback rates.')
-    : lastUpdated;
 
   return (
     <div>

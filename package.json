@@ -4,9 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build",
+    "build": "next build",
+    "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   },
   "dependencies": {
     "next": "14.2.35",
